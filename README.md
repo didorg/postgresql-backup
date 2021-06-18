@@ -1,1 +1,1 @@
-# Backup for postgresql
+# Basic Script for Backing-up a PostgreSQL Database
