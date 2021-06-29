@@ -19,5 +19,5 @@ gzip /dir/$(date +%Y-%m-%d).backup
 echo "Pull Complete"
 
 echo "Clearing old backups"
-find . -type f -iname '*.backup.gz' -ctime +5 -not -name '????-??-01.backup.gz' -delete
+find . /dir/ -type f -iname '*.backup.gz' -ctime +7 -not -name '????-??-01.backup.gz' -delete
 echo "Clearing Complete"
